@@ -4,9 +4,7 @@ footer {
   left: 0;
   position: relative;
   width: 100%;
-  height: auto;
   padding: 40px;
-  position: relative;
 }
 
 footer .content {
@@ -49,24 +47,26 @@ footer .content {
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
-  list-style: none;
 }
 
-
-.contact-icons {
-  display: flex;
-  flex-direction: column;
+.footer-line {
+  border-top: 1px solid #363636;
+  margin: 20px 0;
 }
 
-/* Responsive için */
+.copyright {
+  text-align: center;
+  color: #363636;
+  font-size: 12px;
+}
 
-@media screen and (max-width: px) {
+@media (max-width: 1000px) {
+  .link-boxes {
+    flex-direction: column;
+  }
+  
   .box {
     width: 100%;
-    max-width: 100%;
-  }
-
-  .info-text {
-    width: 100%;
+    margin-bottom: 20px;
   }
 }

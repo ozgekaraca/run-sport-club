@@ -78,8 +78,12 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <hr className="footer-line" />
+      <p className="copyright">
+        2024 Run Sport Club &copy; All Rights Reserved
+      </p>
     </footer>
   );
 };
 
-export default Footer; 
+export default Footer;

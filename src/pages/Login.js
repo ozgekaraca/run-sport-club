@@ -6,17 +6,17 @@ const Login = () => {
     <div className="login-page">
       <div className="login">
         <div className="login-form">
-          <h2>Giriş Yap</h2>
+          <h2>Welcome Back!</h2>
           <form>
             <div className="form-group">
-              <label htmlFor="email">Email:</label>
+              <label htmlFor="email">Email</label>
               <input type="email" id="email" name="email" required />
             </div>
             <div className="form-group">
-              <label htmlFor="password">Şifre:</label>
+              <label htmlFor="password">Password</label>
               <input type="password" id="password" name="password" required />
             </div>
-            <button type="submit">Giriş Yap</button>
+            <button type="submit">Login</button>
           </form>
         </div>
       </div>

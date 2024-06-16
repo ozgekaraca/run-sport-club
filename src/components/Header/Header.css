@@ -3,6 +3,11 @@
   box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.1);
   margin: 0;
   padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .container {
@@ -24,10 +29,9 @@
   display: flex;
 }
 .logo-image {
-  max-width: 100px; 
-  height: auto; 
+  max-width: 100px;
+  height: auto;
 }
-
 
 .menu-toggle {
   display: none;
@@ -83,8 +87,7 @@
 
 .account:hover {
   text-decoration: none;
-    color: #fff;
-
+  color: #fff;
 }
 @media (max-width: 1400px) {
   .menu-toggle {

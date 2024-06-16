@@ -17,7 +17,7 @@ const Header = () => {
               <img
                 src="assets/images/logo.jpeg"
                 alt="logo"
-                width="100"
+                width="80"
                 height="auto"
               />
             </a>
@@ -34,18 +34,18 @@ const Header = () => {
             <nav className={`navigation ${isOpen ? "open" : ""}`}>
               <ul className="navigation-list">
                 <li className="navigation-item">
-                  <a href="/classes">DERSLER</a>
+                  <a href="/classes">CLASSES</a>
                 </li>
                 <li className="navigation-item">
-                  <a href="/group-lessons">GRUP DERSLERİ</a>
+                  <a href="/group-lessons">GROUP LESSONS</a>
                 </li>
                 <li className="navigation-item">
-                  <a href="/price-list">FİYAT LİSTESİ</a>
+                  <a href="/price-list">PRICE LIST</a>
                 </li>
                 <li className="navigation-item">
                   <button className="button">
                     <a href="/login" className="account">
-                      <span>GİRİŞ</span>
+                      <span>LOGIN</span>
                     </a>
                   </button>
                 </li>

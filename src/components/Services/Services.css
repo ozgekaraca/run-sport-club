@@ -1,0 +1,30 @@
+.services-section {
+  padding: 20px;
+}
+
+.service-item {
+  background-color: #a8a8a8;
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 150px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-item h6 {
+  text-align: center;
+}
+
+.service-item p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.text-center h3{
+    color:#4d4d4d;
+}

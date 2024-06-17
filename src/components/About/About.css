@@ -32,7 +32,7 @@ img {
 .title{
   color:#a8a8a8;
 }
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
     margin: 10px;

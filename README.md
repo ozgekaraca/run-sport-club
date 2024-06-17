@@ -1,3 +1,11 @@
+# react.js
+ A static gym site with react
+#
+A homepage fitness website consisting of header, hero, about, services and footer components was designed using React.
+Header and footer components are included in the login page. 
+Bootstrap was used. A static site was designed. 
+Responsive settings have been made.
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

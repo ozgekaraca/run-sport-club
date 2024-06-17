@@ -7,10 +7,6 @@ footer {
   padding: 40px;
 }
 
-footer .content {
-  background: var(--color-base-color-white, #d6d1d1);
-}
-
 .link-boxes {
   display: flex;
   justify-content: space-between;

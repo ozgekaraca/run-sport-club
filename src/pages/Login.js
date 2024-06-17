@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 import "./Login.css";
 
 const Login = () => {
   return (
     <div className="login-page">
+      <Header />
       <div className="login">
         <div className="login-form">
           <h2>Welcome Back!</h2>
@@ -20,6 +23,7 @@ const Login = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
